@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  padding: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: royalblue;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  border: 1px solid black;
+}
+
+section {
+  padding: 1rem 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  width: 14rem;
+  margin: .75rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+li:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+li h6 {
+  margin: 0rem;
+}
+
+dialog {
+  width: 100%;
+  max-width: 28rem;
+  padding: 1.75rem;
+  border-radius: 1rem;
+  border: none;
+}
